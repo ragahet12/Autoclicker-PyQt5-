@@ -13,5 +13,6 @@ You can use this commands:
 pip install pynput
 pip install PyQt5
 ```
-## Made by Giovanni Luis Palencia Osorio
-## All for python
+# :game:
+### Made by Giovanni Luis Palencia Osorio 
+All for python
