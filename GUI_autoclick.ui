@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>360</width>
+                <height>100</height>
+            </rect>
+        </property>
+        <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+            </sizepolicy>
+        </property>
+        <property name="windowTitle">
+            <string>AutoClicker-Pogi</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="autoFillBackground">
+                <bool>false</bool>
+            </property>
+            <widget class="QWidget" name="layoutWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>10</y>
+                        <width>71</width>
+                        <height>71</height>
+                    </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_3">
+                    <property name="rightMargin">
+                        <number>10</number>
+                    </property>
+                    <item>
+                        <widget class="QLabel" name="label">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                                    <horstretch>1</horstretch>
+                                    <verstretch>1</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="layoutDirection">
+                                <enum>Qt::LeftToRight</enum>
+                            </property>
+                            <property name="text">
+                                <string>Minutos</string>
+                            </property>
+                            <property name="textFormat">
+                                <enum>Qt::AutoText</enum>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLabel" name="label_2">
+                            <property name="enabled">
+                                <bool>true</bool>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                    <horstretch>1</horstretch>
+                                    <verstretch>1</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="layoutDirection">
+                                <enum>Qt::LeftToRight</enum>
+                            </property>
+                            <property name="text">
+                                <string>Segundos</string>
+                            </property>
+                            <property name="textFormat">
+                                <enum>Qt::AutoText</enum>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLabel" name="label_3">
+                            <property name="enabled">
+                                <bool>true</bool>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                                    <horstretch>1</horstretch>
+                                    <verstretch>1</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="layoutDirection">
+                                <enum>Qt::LeftToRight</enum>
+                            </property>
+                            <property name="text">
+                                <string>milisegundos</string>
+                            </property>
+                            <property name="textFormat">
+                                <enum>Qt::AutoText</enum>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+            <widget class="QWidget" name="layoutWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>100</x>
+                        <y>10</y>
+                        <width>135</width>
+                        <height>74</height>
+                    </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout">
+                    <item>
+                        <widget class="QDoubleSpinBox" name="lineEdit_min">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>150</width>
+                                    <height>300</height>
+                                </size>
+                            </property>
+                            <property name="statusTip">
+                                <string/>
+                            </property>
+                            <property name="autoFillBackground">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QDoubleSpinBox" name="lineEdit_sec">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>150</width>
+                                    <height>300</height>
+                                </size>
+                            </property>
+                            <property name="statusTip">
+                                <string/>
+                            </property>
+                            <property name="autoFillBackground">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QDoubleSpinBox" name="lineEdit_msec">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>150</width>
+                                    <height>300</height>
+                                </size>
+                            </property>
+                            <property name="statusTip">
+                                <string/>
+                            </property>
+                            <property name="autoFillBackground">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+            <widget class="QWidget" name="layoutWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>240</x>
+                        <y>10</y>
+                        <width>91</width>
+                        <height>71</height>
+                    </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_2">
+                    <property name="spacing">
+                        <number>20</number>
+                    </property>
+                    <item>
+                        <widget class="QPushButton" name="Start_Button">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>80</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>3500</width>
+                                    <height>1500</height>
+                                </size>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true"/>
+                            </property>
+                            <property name="text">
+                                <string>Start</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QPushButton" name="Stop_Button">
+                            <property name="enabled">
+                                <bool>false</bool>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>80</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>3500</width>
+                                    <height>1500</height>
+                                </size>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true"/>
+                            </property>
+                            <property name="text">
+                                <string>Stop</string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+        </widget>
+        <action name="actionInicio">
+            <property name="text">
+                <string>Inicio</string>
+            </property>
+        </action>
+        <action name="actionInicio_2">
+            <property name="text">
+                <string>Inicio</string>
+            </property>
+        </action>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
