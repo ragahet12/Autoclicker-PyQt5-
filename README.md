@@ -9,6 +9,8 @@ For use this application you need PyQt5 and pyinput libraries, for install this 
 pip install pynput
 pip install PyQt5
 ```
+run the main ad enjoy
+
 # :video_game:
 ### Made by Giovanni Luis Palencia Osorio 
 All for python
