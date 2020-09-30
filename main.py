@@ -56,7 +56,7 @@ class AutoGui(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    file = open("Styles/Styles.qss", 'r')
+    file = open("Styles/default.qss", 'r')
     with file:
         qss = file.read()
         app.setStyleSheet(qss)
