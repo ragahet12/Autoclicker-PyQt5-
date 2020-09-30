@@ -1,0 +1,89 @@
+QMainWindow
+{
+	background-color: #242424;
+	color: #FFFFFF;
+	selection-background-color: #FFFFFF;
+	selection-color: #000000 ;
+
+}
+
+
+/*-----QLabel-----*/
+QLabel
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	font: 9pt "bold";
+
+}
+
+/*-----QPushButton-----*/
+QPushButton
+{
+	background-color: #4891b4;
+	color: #FFFFFF;
+	border-radius: 4px;
+	padding: 5px;
+	min-width: 30px;
+	font: 9pt "bold";
+
+}
+
+QPushButton:flat
+{
+	background-color: transparent;
+	border: none;
+	color: #000000;
+
+}
+
+
+QPushButton:disabled
+{
+	background-color: #606060;
+	color: #959595;
+	border-color: #051a39;
+	font: 9pt "bold";
+
+}
+
+
+QPushButton:hover
+{
+	background-color: #54aad3;
+	border: 1px solid #46a2da;
+
+}
+
+
+QPushButton:pressed
+{
+	background-color: #2385b4;
+	border: 1px solid #46a2da;
+
+}
+
+
+QPushButton:checked
+{
+	background-color: #bd5355;
+	border: 1px solid #bd5355;
+
+}
+
+/*-----QMessageBox-----*/
+QMessageBox
+{
+	background-color: #242424;
+	color: #FFFFFF;
+	selection-background-color: #FFFFFF;
+	selection-color: #000000 ;
+	font: 9pt "bold";
+}
+
+
+/*-----QDoubleSpinBox-----*/
+QDoubleSpinBox
+{
+	font: 9pt "bold";
+}
