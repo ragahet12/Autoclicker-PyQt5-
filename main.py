@@ -47,10 +47,6 @@ class AutoGui(QMainWindow):
         msg.setText("Input fields cannot have negative or empty values")
         msg.setWindowTitle("Error in the input field")
         msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
-        file = open("Styles/Styles.qss", 'r')
-        with file:
-            qss = file.read()
-            msg.setStyleSheet(qss)
         retval = msg.exec_()
 
 
